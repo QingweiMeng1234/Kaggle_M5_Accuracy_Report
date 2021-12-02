@@ -24,8 +24,8 @@ special events are also included and enable for a robust dataset to be
 generated, and for forecasts to be more accurate.[^1] Figure 1 shows the
 structure of the data.[^2]
 
-> ![](media/image1.png){width="6.082638888888889in"
-> height="2.64375in"}Figure 1.
+> ![](media/image1.png)
+> <p align="center"> Figure 1. </p>
 
 This competition has two stages. During the first stage of the
 competition, competitors are able to use the data, known as the public
@@ -54,10 +54,8 @@ frameworks, including Lightgbm, Catboost, Xgboosts, Neural network and
 Agglomerative Clustering. We tuned parameters and applied
 cross-validation to minimize overfittings.
 
-![](media/image2.png){width="5.4318186789151355in"
-height="3.1733595800524936in"}
-
-Figure 2. Workflow
+![](media/image2.png)
+<p align="center"> Figure 2. Workflow</p>
 
 # EDA
 
@@ -66,10 +64,8 @@ techniques to maximize insights that can be gleaned from a dataset. The
 boxplots below, aggregating data from all 10 stores, show total sales of
 10 stores by department and by category.
 
-> ![](media/image3.png){width="5.687377515310586in"
-> height="2.3618077427821524in"}
->
-> Figure 3. Total Sales by Department and by Category
+![](media/image3.png)
+<p align="center"> Figure 3. Total Sales by Department and by Category </p>
 
 As can be seen in the first boxplot, the Foods_3 category far outsells
 the product categories in the food category, as well as the various
@@ -84,10 +80,8 @@ Notice in the below figure that all ten Walmart stores in the dataset
 sell the same seven categories of items across the three broad item
 categories.
 
-![](media/image7.png){width="5.982264873140857in"
-height="2.3618077427821524in"}
-
-> Figure 4.
+![](media/image4.png)
+<p align="center"> Figure 4. </p>
 
 The heat map above tells us that the number of items by department is
 the same between these stores. The regression plot shows that the number
@@ -103,16 +97,11 @@ Furthermore, the price of items grows as time passes. The following
 boxplots reveals the relationship between sales and states and between
 sales and stores.
 
-![](media/image11.png){width="5.763888888888889in"
-height="1.3055555555555556in"}
+![](media/image5.png)
+<p align="center"> Figure 5. Distribution of prices for different item categories between stores </p>
 
-> Figure 5. Distribution of prices for different item categories between
-> stores
->
-> ![](media/image12.png){width="5.685044838145232in"
-> height="4.310606955380577in"}
->
-> Figure 6. Total sales by various
+![](media/image6.png)
+<p align="center"> Figure 6. Total sales by various </p>
 
 Since, as we can see, mean sales in stores in CA are not significantly
 higher than in other states, it is plausible to conclude that higher
@@ -129,9 +118,8 @@ models.
 FOODS_3\_090_CA_3, to name one random item, appears to have rather high
 sales prices.
 
-![](media/image16.png){width="5.685040463692038in" height="2.2in"}
-
-> Figure 7. A random item's daily sales changes
+![](media/image7.png)
+<p align="center"> Figure 7. A random item's daily sales changes </p>
 
 We can see that this item was taken off the shelves for a while in the
 first year. Then it became available again and kept selling at a high
@@ -148,20 +136,16 @@ people were more likely to go to the store and purchase it on these
 days. Different months of the year also appeared to have a significant
 impact on sales, indicating that the weather may have affected sales.
 
-![](media/image17.png){width="5.685040463692038in"
-height="1.2534722222222223in"}
-
-> Figure 8.
+![](media/image8.png)
+<p align="center"> Figure 8. </p>
 
 Some other items are randomly selected for exploration and comparison.
 Their sales were influenced by the weekend and seasons much like how
 they were for the item described in figure 7, however trends between
 these items, we can see, were not consistent.
 
-![](media/image18.png){width="5.685040463692038in"
-height="3.5520833333333335in"}
-
-> Figure 9. Sales trends of specific items over particular periods
+![](media/image9.png)
+<p align="center"> Figure 9. Sales trends of specific items over particular periods </p>
 
 We studied sales trends of random items to explore our data from a
 macroscopic perspective. One way to do this was to look at sales
@@ -173,27 +157,20 @@ main source of revenue followed by household and then hobbies. Food
 items experience unique sales peaks while household and hobbies items
 have similar peak times.
 
-![](media/image19.png){width="5.685040463692038in"
-height="2.1347222222222224in"}
+![](media/image10.png)
+<p align="center"> Figure 10. </p>
+For a better understanding of the trends under a particular category,
+we generated calendar heat maps like the ones
+following.
 
-> Figure 10.
->
-> For a better understanding of the trends under a particular category,
-> we generated calendar heat maps like the ones
-> following.![](media/image20.png){width="5.68503937007874in"
-> height="3.8743055555555554in"}
->
-> Figure 11.
->
-> ![](media/image21.png){width="5.68503937007874in"
-> height="3.8743055555555554in"}
->
-> Figure 12.
->
-> ![](media/image22.png){width="5.68503937007874in"
-> height="3.8743055555555554in"}
->
-> Figure 13.
+![](media/image11.png)
+<p align="center"> Figure 11. </p>
+
+![](media/image12.png)
+<p align="center"> Figure 12. </p>
+
+![](media/image13.png)
+<p align="center"> Figure 13. </p>
 
 As can be deduced from a look at the above heatmaps, weekends comprised
 the most popular shopping days for customers regardless of the item
@@ -207,10 +184,8 @@ stores experienced abrupt changes in their sales. This suggests that we
 need to take these unusual sales changes into account when we make
 predictions.
 
-![](media/image23.png){width="5.685040463692038in"
-height="3.654861111111111in"}
-
-> Figure 14.
+![](media/image14.png)
+<p align="center"> Figure 14. </p>
 
 # Function Engineering
 
@@ -291,8 +266,8 @@ Clustering with four clusters to group data. This algorithm treated
 every data point as a cluster, then began merging clusters with the
 minimum distances between them until only four clusters remained.
 
-![](media/image24.png){width="7.086805555555555in"
-height="5.389583333333333in"}Figure 15.
+![](media/image15.png)
+<p align="center"> Figure 15. </p>
 
 The data in Cluster 0 have zero sales for the first 250 days; Data in
 Cluster 1 have 0 sales for the first 750 days. Data in Cluster 2 have
@@ -332,76 +307,19 @@ stores in CA and TX because little to no snows falls in those states.
 
 ### Parameters:
 
-Next we chose the following parameters to tune our model:
-
-  -----------------------------------------------------------------------
-  **Parameters Types**    **Parameters**          **Explanation for
-                                                  Parameters**
-  ----------------------- ----------------------- -----------------------
-  Boosting Type           gbdt                    We do not choose "goss"
-                                                  because it causes high
-                                                  overfitting. "dart" is
-                                                  good except that it is
-                                                  too slow.
-
-  objective               Tweedie Loss Function   This is because our
-                                                  data have many 0's.
-                                                  Tweedie is effective at
-                                                  tackling data with
-                                                  excessive zeros
-
-  Tweedie Variance Power  1.1                     It determines the
-                                                  penalty of error when
-                                                  data get close to 0.
-                                                  For example, suppose
-                                                  one prediction is 0.2
-                                                  while its label is 0.3.
-                                                  Another prediction is
-                                                  0.1 but its label is 0.
-                                                  Even though the
-                                                  absolute error are 0.1
-                                                  in both cases, the
-                                                  error given by Tweedie
-                                                  Regression to the
-                                                  second case would be
-                                                  much larger than the
-                                                  first one. Less Tweedie
-                                                  Variance Power means
-                                                  higher penalty when
-                                                  data gets close to 0.
-
-  metric                  RMSE                    We use RMSE since it is
-                                                  closer to WRRMSE
-
-  subsample               0.5                     Same as Lightgbm
-
-  subsample frequency     1                       control overfitting
-
-  learning rate           0.03                    a conventional value
-
-  number of leaves        2\*\*11 - 1,            Control overfitting
-                          min_data_in_leaf:       while forcing the trees
-                          2\*\*12 - 1             to reach one of the
-                                                  limits above
-
-  max bin                 100                     This parameter does not
-                                                  affect results
-
-  n estimators            1400                    Number of trees the
-                                                  model constructs. We
-                                                  chose this by our
-                                                  experience
-
-  feature fraction        0.5                     Proportions of features
-                                                  used for training each
-                                                  tree. This controls
-                                                  overfitting
-
-  boost from average      FALSE                   since there are some
-                                                  known errors in the
-                                                  code
-  -----------------------------------------------------------------------
-
+  **Parameters Types**   | **Parameters**         |**Explanation for Parameters**                     
+  -----------------------| -----------------------|-----------------------
+  Boosting Type          |gbdt                    |Not "goss" because it causes high overfitting. "Dart" is good except that it is too slow.            
+  objective               |Tweedie Loss Function  |Our data have many 0's. Tweedie is effective at tackling data with  excessive zeros
+  Tweedie Variance Power  |1.1                     |Determining the penalty of error when data get close to 0. For example, suppose one prediction is 0.2 while its label is 0.3.  Another prediction is 0.1 but its label is 0.  Even though the absolute error are 0.1 in both cases, the  error given by Tweedie. Regression to the second case would be much larger than the first one. Less Tweedie Variance Power means higher penalty when data gets close to 0.
+ metric                  |RMSE                     |Close to WRRMSE
+  subsample               |0.5                     |Controlling overfitting
+  subsample frequency     |1                       |Controlling overfitting
+  learning rate           |0.03                    |A conventional value
+  number of leaves        |2\*\*11 - 1, min_data_in_leaf: 2\*\*12 - 1           |Controlling overfitting while forcing the trees to reach one of the limits above
+  n estimators           |1400                    |Number of trees the   model constructs. We chose this by our experience                                                
+ feature fraction        |0.5                     |Proportions of features used for training each tree. This controls overfitting
+  boost from average    |FALSE                   |  
 ### Training Methods:
 
 We trained the model by stores. We got the data by their store IDs
@@ -413,8 +331,7 @@ our test data set.
 
 The average ten most important features are shown below:
 
-![](media/image32.png){width="3.386365923009624in"
-height="2.988429571303587in"}
+![](media/image16.png)
 
 Mean rank refers to features' mean rank for the ten stores. The rolling
 features with the aggregation function mean seemed the most influential
@@ -442,63 +359,21 @@ wm_yr_wk, d, Target, and cluster. We also encoded all categorical
 features to numeric features.
 
 ### Parameters: 
+  **Parameters Types**   | **Parameters**         |**Explanation for Parameters**                     
+  -----------------------| -----------------------|-----------------------
+  Boosting Type          |gbtree                  |Dart too slow and gblinear for linear models          
+  objective               |Tweedie Loss Function  |Same as Lightgbm
+  Tweedie Variance Power  |1.1                    | Same as Lightgbm 
+ metric                  |RMSE                    | Close to WRRMSE
+  subsample               |0.5                     |Same as Lightgbm
+  subsample frequency     |1                       |Same as Lightgbm
+  learning rate           |0.03                    |Same as Lightgbm
+  lambda                  |0.1                     |Optimized result from grid search
+  number of leaves        |2\*\*11 - 1,            |Controlling overfitting
+  Hessian                 |2                      |Controlling overfitting by limiting the weight in each leaf. 2 is acquired from grid search
+  n estimators           |1400                    |Same as Lightgbm                                                
+  colsample bytree       |0.5                     |Proportions of features used for training each tree. This controls overfitting
 
-  -----------------------------------------------------------------------
-  **Parameters Types**    **Parameters**          **Explanation for
-                                                  Parameters**
-  ----------------------- ----------------------- -----------------------
-  Booster                 gbtree                  Dart is too slow and
-                                                  gblinear is for linear
-                                                  models
-
-  objective               Tweedie Loss Function   This is because our
-                                                  data have many zeros.
-                                                  Tweedie is effective at
-                                                  tackling data with
-                                                  excessive zeros
-
-  Tweedie Variance Power  1.1                     The parameter Tweedie
-                                                  takes. It determines
-                                                  the penalty of error
-                                                  when data get close to
-                                                  zero. Less Tweedie
-                                                  Variance Power means
-                                                  higher penalty when
-                                                  data gets close to zero
-
-  metric                  RMSE                    We use RMSE since it is
-                                                  closet to WRRMSE
-
-  learning rate           0.03                    a conventional value
-
-  lambda                  0.1                     This feature controls
-                                                  overfitting by
-                                                  uplifting the
-                                                  threshold. 0.1 comes
-                                                  from grid search
-
-  max leaves              2\^11 - 1               We want to compare this
-                                                  with Lightgbm.
-                                                  Therefore we choose the
-                                                  same max_leaves as in
-                                                  Lightgbm
-
-  hessian                 2                       Hessian controls
-                                                  overfitting by limiting
-                                                  the weight in each
-                                                  leaf. Two is acquired
-                                                  from grid search
-
-  colsample bytree        similar to Lightgbm\'s  Proportions of features
-                          feature fraction        used for training each
-                                                  tree. This controls
-                                                  overfitting
-
-  n estimators            1400                    Number of trees the
-                                                  model constructs. We
-                                                  choose this by our
-                                                  experience
-  -----------------------------------------------------------------------
 
 ### Training Methods:
 
@@ -545,41 +420,17 @@ them with -9999 to distinguish them from other values. Then we encoded
 all categorical data.
 
 ### Parameters:
-
-  -------------------------------------------------------------------------
-  **Parameters Types**    **Parameters**   **Explanation for Parameters**
-  ----------------------- ---------------- --------------------------------
-  Iteration               1400             Same as n_estimators in Lightgbm
-
-  verbose                 0                The purpose of this parameter
-                                           depends on the type of the given
-                                           value: for integer use the
-                                           verbose logging level and set
-                                           the logging period to the value
-                                           of this parameter
-
-  loss_function           RMSE              
-
-  boosting_type           plain            it is the classic gradient
-                                           boosting scheme
-
-  learning rate           0.03             Same as Lightgbm
-
-  bagging_temperature     0.5              Same as Lightgbm's
-                                           feature_fraction
-
-  depth                   11               Max depth of each tree
-
-  border_count            100              It is the number of splits for
-                                           numerical features
-
-  boost_from_average      FALSE            It initializes approximate
-                                           values by best constant value
-                                           for the specified loss function.
-                                           We chose FALSE in this case
-                                           because it is this for all other
-                                           loss functions
-  -------------------------------------------------------------------------
+  **Parameters Types**   | **Parameters**         |**Explanation for Parameters**                     
+  -----------------------| -----------------------|-----------------------
+  Iteration              |1400                    |Same as Lightgbm          
+  verbose                |0                       |
+ metric                  |RMSE                    |Same as Lightgbm
+  boosting_type          |plain                    |Classic gradient boosting scheme
+  learning rate           |0.03                    |A conventional value
+  feature fraction        |0.5                     |Same as Lightgbm
+  depth                   |11                      |Same depth as Lightgbm
+  border_count            |100                     |The number of splits for numerical features                                            
+  boost from average     |FALSE                   |  
 
 ### Training Methods:
 
@@ -652,8 +503,7 @@ We overfit the public dataset because we got 0.46 for public dataset
 while our final score was around 0.7. This was because our trial and
 error focused too much on the public dataset. Furthermore, we added too
 many features in order to fit the public dataset
-well.![](media/image33.png){width="5.763888888888889in"
-height="2.022222222222222in"}
+well.![](media/image17.png)
 
 [^1]: ^1^
     [[https://www.kaggle.com/c/m5-forecasting-accuracy]{.underline}](https://www.kaggle.com/c/m5-forecasting-accuracy)
