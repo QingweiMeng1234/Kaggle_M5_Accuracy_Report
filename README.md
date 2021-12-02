@@ -14,11 +14,11 @@ Jingyu Wang: captaindadwang\@gmail.com
 
 ### Sections:
 
-#### [Introduction](#introduction)
+[Introduction](#introduction)
 
-#### [Explanatory Data Analysis](#eda)
+[Explanatory Data Analysis](#eda)
 
-#### [Feature Engineering](#feature-engineering)
+[Feature Engineering](#feature-engineering)
 
 * [Event related features](#event-related-features)
 * [Price related features](#price-related-features)
@@ -30,12 +30,12 @@ Jingyu Wang: captaindadwang\@gmail.com
 * [Cluster](#cluster)
 * [Release Date](#release-date)
 
-#### [Models](#models)
+[Models](#models)
 * [Lightgbm](#lightgbm)
 * [Xgboost](#xgboost)
 * [Convolutional Neural Network](#convolutional-neural-network)
 * [CatBoost](#catboost)
-#### [Final Submission](#final-submission)
+[Final Submission](#final-submission)
 
 ### Introduction
 
