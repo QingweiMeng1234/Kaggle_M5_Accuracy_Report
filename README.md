@@ -64,7 +64,9 @@ techniques to maximize insights that can be gleaned from a dataset. The
 boxplots below, aggregating data from all 10 stores, show total sales of
 10 stores by department and by category.
 
-![](media/image3.png)
+<p align="center">
+  <img src="media/image3.png" />
+</p>
 <p align="center"> Figure 3. Total Sales by Department and by Category </p>
 
 As can be seen in the first boxplot, the Foods_3 category far outsells
@@ -80,7 +82,9 @@ Notice in the below figure that all ten Walmart stores in the dataset
 sell the same seven categories of items across the three broad item
 categories.
 
-![](media/image4.png)
+<p align="center">
+  <img src="media/image4.png" />
+</p>
 <p align="center"> Figure 4. </p>
 
 The heat map above tells us that the number of items by department is
@@ -100,7 +104,9 @@ sales and stores.
 ![](media/image5.png)
 <p align="center"> Figure 5. Distribution of prices for different item categories between stores </p>
 
-![](media/image6.png)
+<p align="center">
+  <img src="media/image6.png" />
+</p>
 <p align="center"> Figure 6. Total sales by various </p>
 
 Since, as we can see, mean sales in stores in CA are not significantly
@@ -118,7 +124,9 @@ models.
 FOODS_3\_090_CA_3, to name one random item, appears to have rather high
 sales prices.
 
-![](media/image7.png)
+<p align="center">
+  <img src="media/image7.png" />
+</p>
 <p align="center"> Figure 7. A random item's daily sales changes </p>
 
 We can see that this item was taken off the shelves for a while in the
@@ -163,13 +171,19 @@ For a better understanding of the trends under a particular category,
 we generated calendar heat maps like the ones
 following.
 
-![](media/image11.png)
+<p align="center">
+  <img src="media/image11.png" />
+</p>
 <p align="center"> Figure 11. </p>
 
-![](media/image12.png)
+<p align="center">
+  <img src="media/image12.png" />
+</p>
 <p align="center"> Figure 12. </p>
 
-![](media/image13.png)
+<p align="center">
+  <img src="media/image13.png" />
+</p>
 <p align="center"> Figure 13. </p>
 
 As can be deduced from a look at the above heatmaps, weekends comprised
@@ -266,7 +280,9 @@ Clustering with four clusters to group data. This algorithm treated
 every data point as a cluster, then began merging clusters with the
 minimum distances between them until only four clusters remained.
 
-![](media/image15.png)
+<p align="center">
+  <img src="media/image15.png" />
+</p>
 <p align="center"> Figure 15. </p>
 
 The data in Cluster 0 have zero sales for the first 250 days; Data in
