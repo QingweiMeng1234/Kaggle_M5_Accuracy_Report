@@ -537,7 +537,7 @@ well.![](media/image17.png)
 
 ### Contributors:
 
-Qingwei Meng: webermeng\@gmail.com
+Qingwei Meng: mengqf\@bc.edu
 
 Wenyin Gu: wenying.gu\@vanderbilt.edu
 
