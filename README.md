@@ -38,9 +38,9 @@ set. The goal for this competition is to predict the results from day
 This competition uses Weighted RMSSE (WRMSSE) as the evaluation metric,
 according to the following formulas:
 
-$$\mathbf{\text{RMSSE}} = \sqrt{\frac{1}{h}\frac{\sum_{t = n + 1}^{n + h}\left( Y_{t} - \widehat{Y_{t}} \right)^{2}}{\frac{1}{n - 1}\sum_{t = 2}^{n}\left( Y_{t} - Y_{t - 1} \right)^{2}}},$$
-
-$$\mathbf{\text{WRMSSE}} = \sum_{i = 1}^{42,840}{w_{i}*RMSSE},$$
+<p align="center">
+  <img src="media/formula1.png" />
+</p>
 
 With *t* being a point in the generated forecast, *n* the length of the
 training sample (number of historical observations), and *h* the
