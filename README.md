@@ -12,6 +12,8 @@ Hai Guo: guohaidsg\@gmail.com
 
 Jingyu Wang: captaindadwang\@gmail.com
 
+[Introduction](#Introduction)
+
 # Introduction
 
 The M5 Forecasting-Accuracy Competition, held by The Makridakis Open
