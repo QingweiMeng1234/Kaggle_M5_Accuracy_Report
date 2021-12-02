@@ -12,7 +12,7 @@ Hai Guo: guohaidsg\@gmail.com
 
 Jingyu Wang: captaindadwang\@gmail.com
 
-### Sections:
+### Sections
 
 [Introduction](#introduction)
 
