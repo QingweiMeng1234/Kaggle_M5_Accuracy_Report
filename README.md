@@ -1,4 +1,4 @@
-M5-Forecasting Accuracy Report
+# M5-Forecasting Accuracy Report
 
 Authors:
 
@@ -12,9 +12,30 @@ Hai Guo: guohaidsg\@gmail.com
 
 Jingyu Wang: captaindadwang\@gmail.com
 
-[Introduction](#Introduction)
+### Sections:
 
-# Introduction
+#### [Introduction](#introduction)
+
+#### [Explanatory Data Analysis](#eda)
+
+#### [Feature Engineering](#feature-engineering)
+
+* [Time related features](time-related-features)
+* [Lag and Rolling features with aggregation](lag-and-rolling-features-with-aggregation)
+* [Quantile Features with Aggregation](quantile-features-with-aggregation)
+* [Group Aggregation](group-aggregation)
+* [Weather](weather)
+* [Cluster](cluster)
+* [Release Date](release-date)
+
+#### [Models](models)
+* [Lightgbm](lightgbm)
+* [Xgboost](xgboost)
+* [Convolutional Neural Network](convolutional-neural-network)
+* [CatBoost](catboost)
+#### [Final Submission](final-submission)
+
+### Introduction
 
 The M5 Forecasting-Accuracy Competition, held by The Makridakis Open
 Forecasting Center and Kaggle Platform, uses hierarchical sales data
@@ -203,9 +224,9 @@ predictions.
 ![](media/image14.png)
 <p align="center"> Figure 14. </p>
 
-# Function Engineering
+# Feature Engineering
 
-## Event related functions
+## Event Related Features
 
 We found that during certain periods some items sold significantly more
 than during usual times. Therefore, we were careful to factor certain
@@ -214,7 +235,7 @@ seven days of an event either taking place, or having taken place.
 Certain NBA games, to take one example, exert a significant impact on
 food sales, so were factored into account.
 
-## Price related functions
+## Price Related Features
 
 We grouped data by their store IDs and item IDs to calculate sale price
 maximums, minimums, standard deviations and means. In EDA, we found that
@@ -226,14 +247,14 @@ feature, which provides a ratio of prices for one week divided by, for
 example, prices in a previous week, or the average price of each month,
 or the average price in a year.
 
-## Time related functions
+## Time Related Features
 
 We factored into account the fact that the year, month and day, and
 whether a day falls on a weekend or not, can exert an influence on an
 item's sales. We also introduced is_first_half_month as a variable, as
 the time of month influences the sales of many items.
 
-## Lag and Rolling functions with aggregation:
+## Lag and Rolling Features with Aggregation:
 
 We used Lag and Rolling factors to show the trends of item sales. We
 first created lags by shifting sales data downwards by between 28-42
@@ -244,7 +265,7 @@ data for one, seven and 14 days. For each day that we shifted, we rolled
 the data with window sizes seven, 14, 28 and 56 days applied with the
 mean function.
 
-## Quantile Functions with aggregation:
+## Quantile Features with Aggregation:
 
 This idea comes from [[M5 Forecasting -
 Uncertainty]{.underline}](https://www.kaggle.com/c/m5-forecasting-uncertainty).
