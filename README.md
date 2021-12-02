@@ -20,20 +20,22 @@ Jingyu Wang: captaindadwang\@gmail.com
 
 #### [Feature Engineering](#feature-engineering)
 
-* [Time related features](time-related-features)
-* [Lag and Rolling features with aggregation](lag-and-rolling-features-with-aggregation)
-* [Quantile Features with Aggregation](quantile-features-with-aggregation)
-* [Group Aggregation](group-aggregation)
-* [Weather](weather)
-* [Cluster](cluster)
-* [Release Date](release-date)
+* [Event related features](#event-related-features)
+* [Price related features](#price-related-features)
+* [Time related features](#time-related-features)
+* [Lag and Rolling features with aggregation](#lag-and-rolling-features-with-aggregation)
+* [Quantile Features with Aggregation](#quantile-features-with-aggregation)
+* [Group Aggregation](#group-aggregation)
+* [Weather](#weather)
+* [Cluster](#cluster)
+* [Release Date](#release-date)
 
-#### [Models](models)
-* [Lightgbm](lightgbm)
-* [Xgboost](xgboost)
-* [Convolutional Neural Network](convolutional-neural-network)
-* [CatBoost](catboost)
-#### [Final Submission](final-submission)
+#### [Models](#models)
+* [Lightgbm](#lightgbm)
+* [Xgboost](#xgboost)
+* [Convolutional Neural Network](#convolutional-neural-network)
+* [CatBoost](#catboost)
+#### [Final Submission](#final-submission)
 
 ### Introduction
 
