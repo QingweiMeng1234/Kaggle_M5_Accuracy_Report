@@ -2,7 +2,7 @@
 
 ### Sections
 
-[Introduction](#introduction)
+[Introduction and Workflow](#introduction)
 
 [Explanatory Data Analysis](#eda)
 
