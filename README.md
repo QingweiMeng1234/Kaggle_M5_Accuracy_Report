@@ -12,6 +12,9 @@ Hai Guo: guohaidsg\@gmail.com
 
 Jingyu Wang: captaindadwang\@gmail.com
 
+Advisor:
+Shuo Zhang: zhangshuo@group628llc.wecom.work
+
 ### Sections
 
 [Introduction](#introduction)
