@@ -24,8 +24,8 @@ special events are also included and enable for a robust dataset to be
 generated, and for forecasts to be more accurate.[^1] Figure 1 shows the
 structure of the data.[^2]
 
-> ![](media/image1.png){width="6.082638888888889in"
-> height="2.64375in"}Figure 1.
+> ![](media/image1.png)
+> <div align="center"> Figure 1. </div>
 
 This competition has two stages. During the first stage of the
 competition, competitors are able to use the data, known as the public
@@ -54,10 +54,8 @@ frameworks, including Lightgbm, Catboost, Xgboosts, Neural network and
 Agglomerative Clustering. We tuned parameters and applied
 cross-validation to minimize overfittings.
 
-![](media/image2.png){width="5.4318186789151355in"
-height="3.1733595800524936in"}
-
-Figure 2. Workflow
+> ![](media/image2.png)
+> <div align="center"> Figure 2. Workflow </div>
 
 # EDA
 
@@ -66,10 +64,8 @@ techniques to maximize insights that can be gleaned from a dataset. The
 boxplots below, aggregating data from all 10 stores, show total sales of
 10 stores by department and by category.
 
-> ![](media/image3.png){width="5.687377515310586in"
-> height="2.3618077427821524in"}
->
-> Figure 3. Total Sales by Department and by Category
+> ![](media/image3.png)
+> <div align="center"> Figure 3. Total Sales by Department and by Category </div>
 
 As can be seen in the first boxplot, the Foods_3 category far outsells
 the product categories in the food category, as well as the various
@@ -84,10 +80,8 @@ Notice in the below figure that all ten Walmart stores in the dataset
 sell the same seven categories of items across the three broad item
 categories.
 
-![](media/image4.png){width="5.982264873140857in"
-height="2.3618077427821524in"}
-
-> Figure 4.
+> ![](media/image4.png)
+> <div align="center"> Figure 4.</div>
 
 The heat map above tells us that the number of items by department is
 the same between these stores. The regression plot shows that the number
@@ -103,16 +97,12 @@ Furthermore, the price of items grows as time passes. The following
 boxplots reveals the relationship between sales and states and between
 sales and stores.
 
-![](media/image5.png){width="5.763888888888889in"
-height="1.3055555555555556in"}
-
-> Figure 5. Distribution of prices for different item categories between
-> stores
+![](media/image5.png)
+> <div align="center"> Figure 5. Distribution of prices for different item categories between stores</div>
+> 
 >
-> ![](media/image6.png){width="5.685044838145232in"
-> height="4.310606955380577in"}
->
-> Figure 6. Total sales by various
+> ![](media/image6.png)
+> <div align="center"> Figure 6. Total sales by various </div>
 
 Since, as we can see, mean sales in stores in CA are not significantly
 higher than in other states, it is plausible to conclude that higher
@@ -129,9 +119,9 @@ models.
 FOODS_3\_090_CA_3, to name one random item, appears to have rather high
 sales prices.
 
-![](media/image7.png){width="5.685040463692038in" height="2.2in"}
+> ![](media/image7.png)
 
-> Figure 7. A random item's daily sales changes
+> <div align="center"> Figure 7. A random item's daily sales changes</div>
 
 We can see that this item was taken off the shelves for a while in the
 first year. Then it became available again and kept selling at a high
@@ -148,20 +138,16 @@ people were more likely to go to the store and purchase it on these
 days. Different months of the year also appeared to have a significant
 impact on sales, indicating that the weather may have affected sales.
 
-![](media/image8.png){width="5.685040463692038in"
-height="1.2534722222222223in"}
-
-> Figure 8.
+> ![](media/image8.png)
+> <div align="center"> Figure 8. </div>
 
 Some other items are randomly selected for exploration and comparison.
 Their sales were influenced by the weekend and seasons much like how
 they were for the item described in figure 7, however trends between
 these items, we can see, were not consistent.
 
-![](media/image9.png){width="5.685040463692038in"
-height="3.5520833333333335in"}
-
-> Figure 9. Sales trends of specific items over particular periods
+> ![](media/image9.png)
+> <div align="center"> Figure 9. Sales trends of specific items over particular periods </div>
 
 We studied sales trends of random items to explore our data from a
 macroscopic perspective. One way to do this was to look at sales
@@ -173,27 +159,19 @@ main source of revenue followed by household and then hobbies. Food
 items experience unique sales peaks while household and hobbies items
 have similar peak times.
 
-![](media/image10.png){width="5.685040463692038in"
-height="2.1347222222222224in"}
+> ![](media/image10.png)
+> <div align="center"> Figure 10. </div>
 
-> Figure 10.
+For a better understanding of the trends under a particular category,
+we generated calendar heat maps like the ones
+following.
+>![](media/image11.png)
+> <div align="center"> Figure 11. </div>
 >
-> For a better understanding of the trends under a particular category,
-> we generated calendar heat maps like the ones
-> following.![](media/image11.png){width="5.68503937007874in"
-> height="3.8743055555555554in"}
->
-> Figure 11.
->
-> ![](media/image12.png){width="5.68503937007874in"
-> height="3.8743055555555554in"}
->
-> Figure 12.
->
-> ![](media/image13.png){width="5.68503937007874in"
-> height="3.8743055555555554in"}
->
-> Figure 13.
+>![](media/image12.png)
+> <div align="center"> Figure 12. </div>
+>![](media/image13.png)
+> <div align="center"> Figure 13. </div>
 
 As can be deduced from a look at the above heatmaps, weekends comprised
 the most popular shopping days for customers regardless of the item
