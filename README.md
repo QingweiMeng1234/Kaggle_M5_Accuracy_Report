@@ -1,5 +1,21 @@
 # M5-Forecasting Accuracy Report
 
+### Code Contributors:
+
+Qingwei Meng: mengqf\@bc.edu
+
+Wenyin Gu: wenying.gu\@vanderbilt.edu
+
+Liyang Chen: smylc1\@gmail.com
+
+Hai Guo: guohaidsg\@gmail.com
+
+Jingyu Wang: captaindadwang\@gmail.com
+
+Advisor:
+
+Shuo Zhang: zhangshuo@group628llc.wecom.work
+
 ### Sections
 
 [Introduction and Workflow](#introduction)
@@ -535,21 +551,6 @@ error focused too much on the public dataset. Furthermore, we added too
 many features in order to fit the public dataset
 well.![](media/image17.png)
 
-### Code Contributors:
-
-Qingwei Meng: mengqf\@bc.edu
-
-Wenyin Gu: wenying.gu\@vanderbilt.edu
-
-Liyang Chen: smylc1\@gmail.com
-
-Hai Guo: guohaidsg\@gmail.com
-
-Jingyu Wang: captaindadwang\@gmail.com
-
-Advisor:
-
-Shuo Zhang: zhangshuo@group628llc.wecom.work
 
 [^1]: ^1^
     [[https://www.kaggle.com/c/m5-forecasting-accuracy]{.underline}](https://www.kaggle.com/c/m5-forecasting-accuracy)
