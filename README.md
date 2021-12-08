@@ -535,7 +535,7 @@ error focused too much on the public dataset. Furthermore, we added too
 many features in order to fit the public dataset
 well.![](media/image17.png)
 
-### Contributors:
+### Code Contributors:
 
 Qingwei Meng: mengqf\@bc.edu
 
