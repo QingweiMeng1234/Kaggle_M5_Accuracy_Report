@@ -28,7 +28,7 @@
 
 ### Introduction
 
-The M5 Forecasting-Accuracy Competition, held by The Makridakis Open
+The [M5 Forecasting-Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy) Competition, held by The Makridakis Open
 Forecasting Center and Kaggle Platform, uses hierarchical sales data
 from Walmart to predict Walmart's daily sales for the next 28 days. The
 data covers ten stores in California, Texas, and Wisconsin and includes
