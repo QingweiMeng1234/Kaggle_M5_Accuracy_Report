@@ -537,7 +537,7 @@ well.![](media/image17.png)
 
 ### Code Contributors:
 
-Qingwei Meng: mengqf\@bc.edu
+Qingwei Meng: qm351\@nyu.edu
 
 Wenyin Gu: wenying.gu\@vanderbilt.edu
 
