@@ -16,7 +16,6 @@
 * [Group Aggregation](#group-aggregation)
 * [Weather](#weather)
 * [Cluster](#cluster)
-* [Release Date](#release-date)
 
 [Models](#models)
 * [Lightgbm](#lightgbm)
@@ -306,12 +305,6 @@ Cluster 1 have 0 sales for the first 750 days. Data in Cluster 2 have
 sales from day 1. Data in Cluster 3 have 0 sales for the first 1000
 days. Then for the data in Cluster 0, we drop the first 250 days. For
 the data in Cluster 1, we drop the first 750 days and so on.
-
-## Release Date
-
-Release date is the first week when the item has a sales price. We
-acquired the release date for each item from the calendar and dropped
-the rows with dates from before the release date.
 
 # Models
 
