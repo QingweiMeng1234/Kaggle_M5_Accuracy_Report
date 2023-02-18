@@ -304,7 +304,9 @@ The data in Cluster 0 have zero sales for the first 250 days; Data in
 Cluster 1 have 0 sales for the first 750 days. Data in Cluster 2 have
 sales from day 1. Data in Cluster 3 have 0 sales for the first 1000
 days. Then for the data in Cluster 0, we drop the first 250 days. For
-the data in Cluster 1, we drop the first 750 days and so on.
+the data in Cluster 1, we drop the first 750 days and so on. The clustering is used to missing values. 
+According to our EDA, many items start with many zeros. Based on our analysis, those zeros do not mean zero item sold but they are not on stock.
+Therefore, it is safe to remove them and save the space on our computer. 
 
 # Models
 
