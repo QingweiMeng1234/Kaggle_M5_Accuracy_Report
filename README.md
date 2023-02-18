@@ -24,6 +24,8 @@
 * [Convolutional Neural Network](#convolutional-neural-network)
 * [CatBoost](#catboost)
 
+[Running Workflow](#running-workflow)
+
 [Final Submission](#final-submission)
 
 ### Introduction
@@ -534,6 +536,17 @@ while our final score was around 0.7. This was because our trial and
 error focused too much on the public dataset. Furthermore, we added too
 many features in order to fit the public dataset
 well.![](media/image17.png)
+
+## Running Workflow:
+Run Model 1, 2, 3, and 4,l then take average of the results from those four models. For each model, run 
+
+                                                                    -----------> lgb_bystore_final1.ipynb
+                                                                            
+k_means_cluster4.ipynb -> feature_engineering_final_cluster4.ipynb  -----------> lgb_bystore_model1_CA3.ipynb
+                                                                    
+                                                                    -----------> lgb_bystore_model1_CA4.ipynb
+                                                                                                                                     
+                                                                    -----------> lgb_bystore_model1_CA4.ipynb
 
 ### Code Contributors:
 
